@@ -1,0 +1,204 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Georgia;	
+}
+
+body{
+	background-color: #E5E5E5;
+}
+
+/*The Navigation Bar styles*/
+
+#navBar{
+    font-size: 22px;
+    padding: 15px;
+	background-color: #142433;
+	text-align: left;
+	min-width: 720px;
+}
+
+#navBar ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+#navBar ul li:first-child{
+	background-color: #BD4D3D;
+}
+
+#navBar ul li a{
+	text-decoration: none;
+	text-align: left;
+	padding: 2px 10px;
+	color: white;
+}
+
+#navBar a:hover{
+	background-color: #3D84C1;
+}
+
+a.lobtn{
+	display: inline-block;
+	float: right;
+	height: 25px;
+	width: 120px;
+	text-decoration: none;
+	font-size: 18px;
+	text-align: center;
+	background-color: #BD4D3D;
+	color: white;
+}
+
+/*The following content div styles*/
+
+/*The Dashboard page styles*/
+
+#content{
+	margin: auto;
+	padding:10px;
+	max-width: 1100px;
+	min-width: 715px;
+}
+
+#content p{
+	font-size: 20px;
+}
+
+hr{
+	height: 1px;
+}
+
+#tabs1 {
+	text-align: center;
+	margin-top: 20px;
+}
+
+#tabs1 a.memb{
+	display: inline-block;
+	background-color: #51709C;
+	color: white;
+	text-decoration: none;
+	margin: 5px;
+	padding: 10px;
+	min-height: 100px;
+	min-width: 230px;
+}
+
+#tabs1 a.memb:hover{
+	background-color: #5B7AA6;
+	border: 2px solid #51709C;
+}
+
+#tabs1 a.book{
+	display: inline-block;
+	background-color: #197D34;
+	color: white;
+	text-decoration: none;
+	margin: 5px;
+	padding: 10px;
+	min-height: 100px;
+	min-width: 230px;
+}
+
+#tabs1 a.book:hover{
+	background-color: #2D9148;
+	border: 2px solid #197D34;
+}
+
+
+#tabs1 a.nwsp{
+	display: inline-block;
+	background-color: #E15429;
+	color: white;
+	text-decoration: none;
+	margin: 5px;
+	padding: 10px;
+	min-height: 100px;
+	min-width: 230px;
+}
+
+#tabs1 a.nwsp:hover{
+	background-color: #F5683D;
+	border: 2px solid #E15429;
+}
+
+#tabs1 a.magz{
+	display: inline-block;
+	background-color: #9D2333;
+	color: white;
+	text-decoration: none;
+	margin: 5px;
+	padding: 10px;
+	min-height: 100px;
+	min-width: 230px;
+}
+
+#tabs1 a.magz:hover{
+	background-color: #B13747;
+	border: 2px solid #9D2333;
+}
+
+#tabs2 {
+	text-align: center;
+	margin-top: 20px;
+}
+
+#tabs2 a.issued{
+	display: inline-block;
+	text-decoration: none;
+	background-color: #FFA800;
+	color: white;
+	margin: 5px;
+	padding: 10px;
+	min-height: 70px;
+	min-width: 230px;
+}
+
+#tabs2 a.issued:hover{
+	background-color: #FFBC14;
+	border: 2px solid #FFA800;
+}
+
+#tabs2 a.returned{
+	display: inline-block;
+	text-decoration: none;
+	background-color: #0D9803;
+	color: white;
+	margin: 5px;
+	padding: 10px;
+	min-height: 70px;
+	min-width: 230px;
+}
+
+#tabs2 a.returned:hover{
+	background-color: #21AC17;
+	border: 2px solid #0D9803;
+}
+
+#tabs2 a.notreturned{
+	display: inline-block;
+	text-decoration: none;
+	background-color: #D81921;
+	color: white;
+	margin: 5px;
+	padding: 10px;
+	min-height: 70px;
+	min-width: 230px;
+}
+
+#tabs2 a.notreturned:hover{
+	background-color: #EC2D35;
+	border: 2px solid #D81921;
+}
+
+#tabs2 section.time{
+	display: inline-block;
+	text-decoration: none;
+	background-color: #DC4B96;
+	color: white;
+	margin: 5px;
+	padding: 10px;
+	min-height: 70px;
+	min-width: 230px;
+}

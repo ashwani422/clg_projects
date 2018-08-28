@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+body{
+    background-image: url("imgs/7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Georgia;
+}
+
+h1{
+    background-color: #142433;
+    padding: 5px 10px;
+    font-size: 40px;
+}
+
+#box{
+    background-color: #364145;
+    margin-top: 8%;
+    width: 500px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+#box h3{
+    background-color: #142433;
+    text-align: center;
+    padding: 5px 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+input[type=text]{
+    outline: none;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 30px;
+    width: 400px;
+    background-color: #ECF0F5;
+    font-size: 17px;
+    color: #4F2043;
+    border-radius: 5px;
+}
+
+input[type=text]:focus{
+    border: 2px blue;
+}
+
+input[type=password]{
+    outline: none;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 30px;
+    width: 400px;
+    background-color: #ECF0F5;
+    font-size: 17px;
+    border-radius: 5px;
+    color: #4F2043;
+}
+
+#box a{
+    text-decoration: none;
+    color: #337AB7;
+}
+
+#box a:hover{
+    color: #0079EF;
+}
+
+#box a:active{
+    color: #0079EF;
+}
+
+input[type=submit]{
+    outline: none;
+    border: none;
+    height: 35px;
+    width: 210px;
+    background-color: #337AB7;
+    font-size: 20px;
+    font-family: Georgia;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover{
+    background-color: #3D84C1;
+}
+
+input[type=submit]:active{
+    background-color: #2C73B0;
+}

@@ -1,2 +1,3 @@
 # clg_projects
-projects designed and coded for college and learning.
+First thing first don't laugh at my work.
+This project was made when i was learning alphabets of programming. Still a good work done by me at that time.
